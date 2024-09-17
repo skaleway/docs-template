@@ -156,7 +156,7 @@ export default async function DocPage({ params }: DocPageProps) {
           <Mdx code={doc.body.code} />
           <div className="my-3 text-right">
             <Link
-              href={`https://github.com/code-env/framer-ground/edit/main/content/docs/${doc.slugAsParams}.mdx`}
+              href={`https://github.com/skaleway/docs-template/edit/main/contents/docs/${doc.slugAsParams}.mdx`}
               target="_blank"
               rel="noreferrer"
               className="text-sm text-secondary-foreground underline"
